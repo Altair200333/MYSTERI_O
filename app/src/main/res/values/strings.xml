@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MYSTERIO</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="enter_password_hint">Enter your password</string>
+    <string name="enter_password">Enter</string>
+    <string name="APP_PREFERENCES">MyPreferences</string>
+    <string name="pref_is_first_launch">is_first_launch</string>
+    <string name="welcome_text">      welcome to MYSTERIO \n now you can configure you default settings</string>
+    <string name="input_text_pass_hint">Input your text password:</string>
+    <string name="save">Save</string>
+    <string name="pref_graphic_pass">PREFERENCES_GRAPHIC_PASSWORD</string>
+    <string name="pref_launch_lockers">PREFERENCES_LAUNCH_LOCKERS</string>
+
+
+</resources>

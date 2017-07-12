@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground_dark1"
+    tools:context="com.altaindustr.mysterio.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/icon_folder"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Folders"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginStart="22dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginEnd="34dp"
+        app:srcCompat="@drawable/icon_dev"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView6"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginEnd="25dp"
+        android:text="Photos"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginStart="18dp"
+        android:text="Videos"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/icon_dev"/>
+
+</RelativeLayout>
