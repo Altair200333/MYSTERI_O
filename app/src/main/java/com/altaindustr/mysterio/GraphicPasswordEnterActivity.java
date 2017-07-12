@@ -50,7 +50,7 @@ public class GraphicPasswordEnterActivity extends Activity implements GraphicPas
         if (passKey.equals(password))
         {
             Toast.makeText(this, "Password correct",Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(this, WelcomeActivity.class));
+            startActivity(new Intent(this, MainActivity.class));
         }
     }
 

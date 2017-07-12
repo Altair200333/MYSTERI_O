@@ -62,7 +62,7 @@ public class TextPasswordActivity extends AppCompatActivity
                     }
                     else
                     {
-                        startActivity(new Intent(this, WelcomeActivity.class));
+                        startActivity(new Intent(this, MainActivity.class));
                     }
                 }
                 else

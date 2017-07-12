@@ -36,7 +36,7 @@ public class DrawThread extends Thread {
         backgroundPaint.setStyle(Paint.Style.FILL);
         paint.setColor(Color.parseColor("#fb135c"));
         paint.setStyle(Paint.Style.FILL);
-        paint.setStrokeWidth(30);
+        paint.setStrokeWidth(20);
     }
 
     public DrawThread(Context context, SurfaceHolder surfaceHolder)
@@ -80,10 +80,8 @@ public class DrawThread extends Thread {
                         {
                             if (p.isInCircle(X,Y, p.x,p.y,(int)(r*4)))
                             {
-                                Log.e("ee","in1 "+indexes+";"+Arrays.asList(centers).indexOf(p));
                                 if (!indexes.contains(Arrays.asList(centers).indexOf(p)+""))
                                 {
-                                    Log.e("ee","in2");
                                     points.add(new Point(p.x, p.y));
                                     startX = p.x;
                                     startY = p.y;
